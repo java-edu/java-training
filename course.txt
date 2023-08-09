@@ -1,0 +1,64 @@
+
+
+Course Plan
+
+Java Basics the functional programming way - 5
+	the main method
+	comments
+	naming convention classes, variables, and constantss
+	java keywords
+	data types
+		primitive
+		non primitive or user defined
+	variables
+		local,global,instance,static
+	operators
+		unary,arithmetic,relational,logical,ternary,assignment
+	type casting
+	arrays
+	control statements
+		if-else,for,while,do-while,continue,break
+	program output
+	user input
+	exercises on most common programs
+	
+Java the OOP way  - 5
+	objects
+	class
+	instance variables (state)
+	methods (behaviour)
+	constructor
+	getter and setters
+	the new keyword
+	variable types
+	access modifiers
+	this keyword
+	OOP concepts
+		APIE
+	Object class
+	Some in built utility classes
+		Math, Wrappers, Date, Type conversions, strings, stringbuffer, stringbuilders
+
+Core Java  - 10
+	exception handling
+	collections
+		arraylist, hashmap, hashset
+	streams
+	external libraries
+	maven
+	jdbc
+	basic sql
+	orm - jpa and hibernate
+	multithreading
+
+Advanced Java [web development] - 20
+	fe, be, db, http, rest apis, web servers, the internet
+	servlets
+	spring boot
+	spring web
+	spring jpa
+	basic html
+	basic css
+	basic js with ajax
+	high level design
+	low level design
