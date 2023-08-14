@@ -19,20 +19,23 @@ https://spring.io/tools
 
 
 what is java?
-	a high level language (one of machine language, assembly language, and high-level language)
+	a high level language (depending on machine, there are machine language, assembly(low) language, and high-level language)
 	object oriented language
 		eveything in java is object which has a state and behaviour
 	statically typed language
+		variable types are explicitly declared
 	garbage collected language
-	mutithreaded language
+		auto frees memory by clearing unsed variables or objects
+	multithreaded language
 	both compiled and interpreted
 		.java(source code) --compile|using-javac-> .class(byte code), --interpret|using-jvm-> machine code
-	java programs are portable platform independent
+	java programs are portable, platform independent
 		compile once and execute anywhere using jvm
 		.java and .class files are machine independent and therefore portable
 	secure language
-		no explicit use of pointers (no direct access to memory like c)
-			helps resolve probelms like memory leakage when garbage is not cleared
+		no explicit use of pointers
+		no direct access to memory like c
+		helps resolve probelms like memory leakage when garbage is not cleared
 		jvm verfies byte-code eg. type safety, inheritance, naming rules etc
 
 
@@ -42,7 +45,7 @@ Java Development Kit - JDK
 Java Runtime Environment - JRE
 	JVM + some libraries and other files used by JVM to run byte code
 Java Virtual Machine - JVM
-	loads, verifies, and exectures byte code (.class files) is executed
+	loads, verifies, and executes byte code (.class files)
 	any language code that is converted to bytecode can be run with it
 
 
@@ -55,8 +58,6 @@ SOME JAVA COMMANDS
 	javac JavaFileName.java // to compile
 	java JavaFileName // to run
 
-
---learn more in java-indepth section
 ------------------------------
 
 THE MAIN METHOD
@@ -67,7 +68,6 @@ THE MAIN METHOD
 		or arguments that have space in them can be enclosed in double quotes
 
 
---learn more in java-indepth section
 -------------------------------
 
 COMMENTS
@@ -78,7 +78,7 @@ COMMENTS
 
 
 -------------------------------
-NAMING CONVENTION
+NAMING RULES AND CONVENTION
 
 	case sensitive
 	class and interface names
@@ -89,7 +89,7 @@ NAMING CONVENTION
 		generally a verb
 	variable names
 		start with lower case letter
-		rules to declare variable names
+		rules to declare variable name (aka identifiers)
 			alphabets, numbers, _ and $
 			first char cannot be number
 			not reserved keywords
@@ -102,14 +102,14 @@ NAMING CONVENTION
 		all lower case
 		eg. com.amazon, org.mit.edu, com.google
 
-java follows CamelCase naming convention
+	CamelCase naming convention
 
 
 -------------------------------
 
 JAVA KEYWORDS
 
-	set of reserved words by the programming labguage itself
+	set of words reserved by the programming language itself
 	these cannot be used for user defined identifiers
 	https://www.w3schools.com/java/java_ref_keywords.asp
 
@@ -279,9 +279,7 @@ wap to print a given string in lowercase
 
 
 
-Note that you should not hard code input and rather accept program inputs from console using Scanner class and do not hard code them in your program
-
-
+Note that you should not hard code input into code and rather accept program inputs from console using Scanner class
 
 
 ---------------------------------------------------------------------------
@@ -1690,7 +1688,7 @@ https://practice.geeksforgeeks.org/explore?page=1&sprint=a663236c31453b969852f9e
 ALGORITHMS
 
 	sorting
-		bubble, merge
+		bubble, merge, quick
 	searching
 		linear, binary
 	recursion
